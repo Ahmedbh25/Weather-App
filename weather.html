@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/weather.js" defer></script>
+
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo2.png" class="logimg">
+                    <h1 class="logtxt">Weatherday</h1>
+                </a>
+            </div>
+            <div class="navlink">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="weather.html">Weather</a></li>
+                    <li><a href="review.html">Review</a></li>
+                </ul>
+                <p class="clear"></p>
+            </div>
+
+            <div class="auth">
+                <ul>
+                    <li class="login"><a href="login.html">Login</a></li>
+                    <li class="register"><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="contentw">
+        <div class="weather">
+            <div class="search">
+                <input type="text" name="city" class="cities" value="" placeholder="Enter City Name">
+                <button class='btn'>search</button>
+                <p id="Error"></p>
+            </div>
+
+            <div class="weather_res loading" >
+                <div class="location">
+                    <h2 class="city"></h2>
+                    <h3 class="region"></h3>
+                    <h3 class="country"></h3>
+                    <h3 class="date"></h3>
+                </div>
+                <hr>
+                <div class="condy">
+                    <img src="" alt="weathery"
+                        class="weather_condition">
+                    <h4 class="condition"></h4>
+                </div>
+
+                <div class="allweath">
+                    <h4 class="temp"></h4>
+                    <h4 class="humidity"></h4>
+                    <h4 class="speed"></h4>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

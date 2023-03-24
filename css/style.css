@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+    background: linear-gradient(to right ,#524892, #4b4092 );
+}
+
+/* START home page Styling */
+
+.container {
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    height: 75px;
+    position: fixed;
+    top:0px;
+}
+
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+
+.logo{
+    width: 300px;
+    float: left;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.logimg{
+    width: 50px;
+    float: left;
+}
+
+.logtxt{
+    display: inline-block;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 25px;
+    position: relative;
+    top: 10px;
+}
+
+.navlink{
+    float: left;
+    height: 73px;
+
+}
+
+.navlink ul li{
+    float: left;
+    list-style: none;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-left: 65px;
+
+}
+
+.navlink ul li a {
+    text-decoration: none;
+    color : #fff;
+    transition: .4s ease-in-out;
+
+}
+
+.navlink ul li a:hover{
+    color : #00CED1;
+
+}
+
+
+.auth{
+    float: right;
+    margin-top: 35px;
+}
+
+.auth .login{
+    margin-right: 40px;
+}
+
+
+
+.auth ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.auth ul li a{
+    text-decoration: none;
+    color : #00CED1;
+    transition: 0.4s ease-in-out;
+}
+.auth ul li a:hover{
+    color:#fff;
+}
+
+.content{
+    margin-left:80px;
+    margin-top: 100px;
+
+}
+
+.content .weath {
+    width: 50%;
+    float: left;
+    margin-top: 120px;
+
+}
+
+.content h1 {
+    font-size: 45px;
+    color : #00CED1;
+    font-family: sans-serif;
+}
+
+.content #parag1{
+    font-size: 30px;
+    color : #fff;
+    margin-left:10px ;
+    line-height: 50px;
+    letter-spacing: .2rem;
+
+}
+
+.content img{
+    margin-top: 20px;
+    width:300px;
+    height: 500px;
+    margin-left:100px;
+    border-radius:60%;
+}
+
+.btnWeather{
+    height : 50px;
+    width: 150px;
+    background: #00CED1;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    color:#000;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btnWeather:hover{
+    background: #96fdff;
+
+}
+
+.linkto{
+    text-decoration: none;
+
+
+}
+
+/* END home page Styling */
+
+
+
+/* START about page Styling */
+
+.contenta{
+    margin-left:80px;
+    height: 400px;
+    margin-top: 120px;
+    color:#00CED1;
+    font-size: 20px;
+}
+
+.contenta .about{
+    width: 60%;
+    float: left;
+
+}
+
+.contenta #parag{
+    font-size: 25px;
+    color : rgb(216, 216, 216);
+    line-height: 50px;
+}
+
+.contenta #parag2{
+    font-size: 20px;
+    color : rgb(255, 255, 255);
+}
+
+.contenta .me{
+    width : 30%;
+    margin-left:80px;
+    border-radius: 80%;
+}
+
+.contents{
+    height: 80px;
+    background-color: silver;
+    width: 100%;
+    margin-top: 80px;
+}
+
+
+.social{
+    width:50%;
+    margin: auto;
+}
+.social p{
+    position: relative;
+    left: 120px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.social ul li{
+    margin-top: 15px;
+    list-style:none;
+    float: left;
+    color: white;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.social ul li a{
+    text-decoration: none;
+}
+
+.social ul li a:hover{
+    color: #fd5817;
+}
+
+
+/* END about page Styling */
+
+
+
+
+/* START Weather page Styling */
+.contentw{
+    margin-top: 120px;
+    width: 100%;
+}
+
+.contentw .weather{
+    width:60%;
+    margin: auto;
+    height: 500px;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ,  url('../images/download.jpeg') ;
+                 
+    background-size: cover;
+}
+
+.contentw .search{
+    width:78%;
+    margin: auto;
+}
+
+.contentw .search button {
+    display: inline;
+    height: 40px;
+    width:100px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #ffec7e ;
+    font-size: 16px;
+    transition: 0.4s ease;
+    cursor: pointer;
+    border:1px solid #f7ce47;
+    font-weight: bold;
+}
+
+.contentw .search button:hover{
+    background-color : #f8dd45;
+}
+
+.contentw .search input{
+    margin-top: 30px;
+    width:300px;
+    height: 30px;
+    font-family: sans-serif;
+    background: transparent;
+    border: 1px solid #fde594;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contentw .search input:focus{
+    outline:none;
+}
+
+::placeholder{
+    color : #f0f0f0;
+    font-family: arial;
+    text-shadow: #000 1px 0 10px;
+}
+
+#Error, #Error1, #Error2{
+    margin-top: 5px;
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contentw .weather_res{
+    width: 70%;
+    margin:auto;
+    margin-top: 30px;
+    padding: 30px;
+    color: #fffb00;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+
+}
+
+.contentw .weather_res .allweath{
+    margin-bottom: 50px;
+
+}
+.contentw .weather_res hr{
+    margin-top: 10px;
+
+    margin-bottom: 20px;
+}
+.contentw .weather_res .location{
+    margin-left: 10px;
+}
+
+
+
+.condy{
+    float:left;
+    height : 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+.condy .condition{
+    color: #fff;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+.contentw .weather_condition{
+
+    margin-right: 10px;
+}
+
+
+.weather_res.loading{
+    visibility: hidden;
+}
+
+
+
+/* END Weather page Styling */
+
+
+
+
+
+
+
+/* START Review page Styling */
+.contentrev {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+    margin-top: 120px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%) ,  url('../images/ress.webp') ;
+    background-size: cover;
+    border-radius: 10px;
+
+}
+
+.contentrev .review{
+    width: 90%;
+    margin: auto;
+    position :relative;
+    top: 30px;
+
+}
+.contentrev .review h1{
+    top : 30px;
+    color: #fff;
+}
+.contentrev .review textarea{
+    margin-top: 10px;
+    background: transparent;
+    color:#f0f0f0;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 20px ;
+    padding-left : 10px ;
+    border-radius: 10px;
+}
+
+
+
+.contentrev .review textarea:focus{
+    outline:none;
+}
+
+.contentrev .review button{
+    display: block;
+    width: 130px;
+    height:45px;
+    background:#00CED1;
+    color:#000;
+    border:none;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+
+.contentrev .review button:hover{
+    background: #92fafc;
+}
+.contentrev .review .rating{
+    margin-top: 20px;
+    width : 40vh;
+    height: 30px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contentrev .review .rating:focus{
+    outline:none;
+}
+
+#success{
+    color:rgb(0, 255, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contentrev .result{
+    padding: 20px;
+    margin-top: 100px;
+    height: 350px;
+    width: 25%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    float: right;
+    position: relative;
+    bottom: 320px;
+    right:80px;
+    background-image: url("../images/review.jpg");
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.contentrev .result .ratings, .review_txt{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)10%, rgba(0,0,0,0.5)10%);
+    height:50px;
+    padding: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+}
+
+.ratings .hidden{
+    visibility: hidden;
+}
+
+
+
+.review_txt{
+margin-top: 5px;
+}
+
+/* END Review page Styling */
+
+
+
+
+@media (max-width:  1053px) {
+    
+    .navbar{
+        width: 100%;
+
+    }
+
+    .auth .login{
+        margin-right: 5px;
+        
+    }
+
+    .navlink{
+        float: left;
+        height: 73px;
+        
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo2.png" class="logimg">
+                    <h1 class="logtxt">Weatherday</h1>
+                </a>
+            </div>
+            <div class="navlink">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="weather.html">Weather</a></li>
+                    <li><a href="review.html">Review</a></li>
+                </ul>
+                <p class="clear"></p>
+            </div>
+
+            <div class="auth">
+                <ul>
+                    <li class="login"><a href="login.html">Login</a></li>
+                    <li class="register"><a href="register.html">Register</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <div class="contentrev">
+        <div class="review">
+            <h1>Review : </h1>
+            <input type="number" max=10 min="1" class="rating" placeholder="Add rating Number" />
+            <p id="Error1"></p>
+            <textarea rows="6" cols="40" class = "paragraphe" placeholder="Add you review Here"></textarea>
+            <p id="Error2"></p>
+            <p id="success"></p>
+            <button class="btn">Add Review</button>
+        </div>
+        <div class = 'result hidden'>
+            <h2 class="ratings"></h2>
+            <p class="review_txt"></p>
+        </div>
+    
+
+    </div>
+
+    <script src="js/review.js"></script>
+</body>
+
+</html>
