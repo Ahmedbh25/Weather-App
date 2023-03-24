@@ -105,3 +105,14 @@ h2 {
   color: red;
 }
 
+#Error {
+  font-size: 20px;
+  color:red;
+  margin-top: 20px;
+}
+
+#Success {
+  font-size: 20px;
+  color:green;
+  margin-top: 20px;
+}

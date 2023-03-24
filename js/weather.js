@@ -1,4 +1,8 @@
-const api_key = "755912c70f5c456ab4f141716232002"
+/* Searching For any Place In The World if We Find The Place (city)
+We Show weather condition in that Place 
+Else if City Don't Exist Show Error Message (" Sorry, This is not a city name ");
+*/
+const api_key = "755912c70f5c456ab4f141716232002";
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 console.log(urlParams.get('city'));
@@ -60,6 +64,7 @@ document.querySelector('.cities').addEventListener('keyup', (e) => {
     }
 })
 
+// When the Page Load it Shows automatically Kelibia location 
 weather.fetch_weather('Kelibia')
 
 

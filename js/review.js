@@ -1,3 +1,7 @@
+// Verify Inputs & add review + rating when The <Add Review> Button is Clicked .
+// error message appear if any input value don't Follow The Rules.
+// success message show if evry thing is Ok and disappear in 5 seconds.
+
 document.querySelector(".btn").addEventListener('click', () => {
     const review_text = document.querySelector(".paragraphe").value;
     const rating = document.querySelector(".rating").value;
